@@ -84,6 +84,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  height: 100vh;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#board {
+  width: 360px;
+  height: 360px;
+  background-color:bisque;
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid darkgray
+}
+
+#board img {
+  width: calc(360px / 3);
+  height: calc(360px / 3);
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
